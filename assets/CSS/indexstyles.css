@@ -1,0 +1,178 @@
+/* Début de la partie de Raphaël*/
+
+/* Header */
+header {
+  margin: 0;
+  padding: 0%;
+  background: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: white;
+    padding: 28px 0px;
+}
+
+
+ul li a:hover {
+color: 0;
+background-color: none;
+border-bottom: #2eca6a solid 2px;
+}
+/*modifier la calsse de dropdown-item*/
+a:hover,ul li a.dropdown-item {
+background-color: none !important;
+border-top: #2eca6a !important;
+border-left: #2eca6a !important;
+
+}
+
+.text {
+color: #2eca6a;
+}
+.btn-loupe-header {
+background-color: #2eca6a!important;
+color: white!important;
+border-radius: 0;
+}
+.btn-loupe-header:hover {
+  color: white;}
+
+  /*Fin de la partie de Raphael/*
+
+  /* Début de la partie de Pauline*/
+
+  /* Home */
+
+/* Carrousel */ 
+.imgcr{height:730px; width: 1700px;}
+.green {color:#2ECA6A}
+.villa{font-size: 8px; font-size: 100%; margin-bottom: 20px;}
+.adressech {font-weight: 700; font-size: 35px; text-transform: uppercase;font-family: 'Poppins';}
+@media (min-width: 576px) {.adressech {font-size: 45px;}}
+@media (min-width: 768px) {.adressech {font-size: 60px;}}
+@media (min-width: 992px) {.adressech {font-size: 65px;}}
+
+/*Our Services*/ 
+.mainicone {border: #2ECA6A solid 5px; padding :3px 40px 3px 40px; font-size: 60px; position:relative}
+.i1 {font-size: 50px;}
+.life {font-size: 2.5rem; font-weight:bold; padding-left: 110px; position:absolute}
+
+.cart{ margin-bottom: 1em;}
+.text1{color: #555555;}
+.link{text-decoration: none;color:black;font-weight: 900; margin-bottom: 20px;}
+.link:hover{text-decoration: none;color:#2ECA6A;font-weight: 900;background-color: none;}
+
+/*link*/
+.linkpro{text-decoration: none;color:black;text-align: end;float: right;font-size: 19px; padding-top: 9px;}
+.linkpro:hover{text-decoration: none;color:black;}
+
+.linkpro2{text-decoration: none;;}
+.linkpro2:hover{text-decoration: none;}
+
+/*latest*/
+.latnew{height:400px;}
+.latebox{padding-top: 250px;}
+.latebox2{padding-top: 350px;}
+
+/*latest properties*/
+.owl-dots button.owl-dot.active span, 
+.owl-dots button.owl-dot:hover span {background-color: yellow; border-radius: 50%; height: 16px; width: 16px;}
+.owl-dots button.owl-dot{border: 1px solid gray; background: white; border-radius: 50%; height: 19px; width: 19px; position: relative;}
+
+/* Containers */
+#cont1{padding:0; margin-bottom: 100px; font-family: 'Poppins';}
+.cont2{padding:0; font-family: 'Poppins'}
+.cont3{ padding:0px ;margin-top:50px ; font-family: 'Poppins'}
+.cont4{padding:0; margin-top:50px; font-family: 'Poppins'}
+.cont5{padding:0; margin-top:50px; font-family: 'Poppins'}
+.cont6{padding:0; margin-top:50px; font-family: 'Poppins'}
+
+/* btn */
+.btn1 {font-size: 2rem;}
+@media (min-width: 576px) {.btn1 {font-size: 2.5rem;}}
+
+/*Owl Carousel*/
+.btn2{background-color:#2ECA6A; border-radius: 15px;border-color:transparent;}
+.btn2:hover{border-width: 3px;background-color:transparent; border-color: #2ECA6A;}
+
+/*Carousel*/
+.btn1 {border-width: 3px;margin-bottom: 100px;background-color:transparent; border-color: #2ECA6A;}
+.btn1:hover{border-width: 3px;margin-bottom: 100px;background-color:transparent; border-color: #2ECA6A;}
+
+/* Indicators */
+/*Carousel*/
+.carousel-indicators  .active{height: 11px !important ; width: 39px !important; background-color:#2ECA6A; margin-bottom: 25px;}
+.indicators{height: 10px !important ; width: 18px !important;}
+
+/*Testimonials*/
+
+.imgtest{height: 400px; width: 550px;}
+.texttest{background-color: #F3F3F3;padding: 20px 50px 20px 10px; color: #555555;}
+.icotest{font-size: 50px; display: flex ; justify-content: center; color: #2ECA6A;}
+.minitest{border-radius: 50%;}
+
+/*Fin de la partie de Pauline/*
+
+
+/* Début de la partie de Mouna*/
+footer {
+  background-color: #f3f3f3;
+}
+.bi-chevron-right{
+color: #2eca6a;
+}
+
+P {
+  color: #555555;
+}
+
+.lien {
+  text-decoration: none  !important;
+  color: black !important;
+   }
+.lien:hover{
+  color:#2eca6a  !important;
+}
+.list-group-item{
+  margin: 10px 0 0 0 ; border: none;background-color: #f3f3f3;
+}
+h1{
+  padding: 0px 0px 0PX 20px;
+}
+
+textarea{
+  border-radius: 0% !important;
+}
+textarea:hover{
+  border-color: #2eca6a;
+}
+#message{
+  border-radius: 0% !important;
+}
+#message:hover{
+  color:black  !important;
+  background-color: #2eca6a !important;
+  border: 0px;
+}
+h3{
+  font-size: 25px !important;
+}
+.page-contact{
+  padding:20px;
+}
+input:hover{
+border-color: #2eca6a ;
+}
+.intro-single .title-single-box{
+  border-left:3px solid #2eca6a;
+}
+.intro-single{
+  padding-bottom: 45PX;
+  padding-top: 45PX; 
+}
+.title-single-box{
+  padding-left: 30px;
+}
+
+/*Fin de la partie de Mouna/*
